@@ -5,7 +5,7 @@ import ToDoService from "../ToDoService";
 import { FaEdit, FaCheck } from "react-icons/fa";
 import { GiCancel } from "react-icons/gi";
 import { RiDeleteBin5Fill } from "react-icons/ri";
-import "../CSS/ToDoList.css";
+
 
 const ToDoList: React.FC = () => {
   const [todos, setTodos] = useState<ToDoTypes[]>(ToDoService.getTodos());
